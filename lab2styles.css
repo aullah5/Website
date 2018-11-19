@@ -1,0 +1,38 @@
+#grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#grid > div {
+    padding: .5em;
+    background: lightgrey;
+}
+
+#month {
+    text-align: center;
+    background: lightgreen;
+    color: white;
+    width: auto;
+}
+
+.column {
+    float: left;
+    width: 10%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form{
+    margin-bottom: 10px;
+}
+
+.times {
+    margin-bottom: 10px;
+}

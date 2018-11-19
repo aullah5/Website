@@ -1,0 +1,96 @@
+body {
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+#myInfo {
+    text-align: center;
+}
+
+#classInfo {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+.flex-grid {
+    display: flex;
+    background: lightblue;
+}
+
+.flex-grid .col {
+    flex: 1;
+}
+
+.flex-grid-thirds {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.flex-grid-thirds .col {
+    width: 32%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.flex-grid {
+    margin: 0 0 20px 0;
+}
+
+.col {
+    padding: 20px;
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    overflow-x: hidden;
+    padding: 8px 0;
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.sidenav a:hover {}
+
+.main {
+    margin-left: 140px;
+    /* Same width as the sidebar + left position in px */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
